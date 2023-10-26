@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Tic Tac Tan</title>
+    </head>
+    <body>
+        <script>
+        //print a tic if a number is divisble by 3, tac if a number is divisible by 5 and tan if a number is divisible by 3&5
+        x = prompt("Enter a number: ");
+        if(x % 3 == 0 && x % 5 == 0)
+        {
+            console.log("tan");
+        }
+        else if(x % 3 == 0)
+        {
+            console.log("tic");
+        }
+        else if(x % 5 == 0)
+        {
+            console.log("tac");
+        }
+        else
+        {
+            console.log("None");
+        }
+        </script>
+    </body>
+</html>

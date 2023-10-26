@@ -1,0 +1,116 @@
+*{
+    margin : 0;
+}
+
+.nav-container li
+{
+    display : inline-block;
+    padding : 10px;
+    margin : 10px;
+}
+
+.nav-container ul
+{
+    background-color : black;
+}
+
+.nav-container li a
+{
+    color : white;
+    text-decoration : none;
+    font-size: 20px;
+}
+
+.nav-container li a:hover
+{
+    background-color: grey;
+}
+
+#banner-image
+{
+    width : 100%;
+    opacity : 0.7;
+    height : auto;
+}
+
+.banner-title
+{
+    position : absolute;
+    top : 40%;
+    left : 45%;
+    font-size: 4em;
+}
+
+.banner-subtitle
+{
+    position : absolute;
+    top : 50%;
+    left : 48%; 
+    font-size : 1.2em;
+}   
+
+.skill-logo
+{
+    width : 150px;
+    height : 150px;
+}
+.skill-heading
+{
+    margin : 20px;
+    font-size : 2em;
+    text-align : center;
+}
+
+.skills
+{
+    display : flex;
+    justify-content : space-evenly;
+}
+
+.skill
+{
+    display : flex;
+    align-items : center;
+}
+
+.skill-text
+{
+    font-size : 1.5 em;
+}
+
+.project-heading
+{
+    text-align:center;
+    font-size: 2em;
+    margin:0;
+}
+
+.project-img
+{
+    width: 250px;
+    height:250px;
+}
+
+.project
+{
+    display:flex;
+    align-items:center;
+    margin:20px;
+}
+
+.project-info
+{
+    font-size:20px;
+}
+
+.about-me
+{
+    display:flex;
+    align-items:center;
+}
+
+.about-image
+{
+    width:250px;
+    height:250px;
+}

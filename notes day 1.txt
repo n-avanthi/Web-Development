@@ -1,0 +1,9 @@
+<p> paragraph
+<i> italics
+<b> bold
+<u> underline
+<hr> horizontal line //standalone tag
+<or> order list
+<li> list item
+
+w3schools

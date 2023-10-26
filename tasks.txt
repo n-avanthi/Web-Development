@@ -1,0 +1,6 @@
+bulb on off using 1 func
+bulb on off using 1 button using 1 func
+    - if img is off, button text should be on
+    - if img is on, button text should be off
+
+MONDAY 8AM

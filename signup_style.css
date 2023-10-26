@@ -1,0 +1,37 @@
+#backgroud-video {
+    position: fixed;
+    width: auto;
+    height: auto;
+}
+
+.signup {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+
+}
+
+input {
+    height: 30px;
+    width: 45%;
+    border-radius: 10px;
+}
+* {
+    margin: 0;
+}
+
+.button {
+    width: 94px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#lname {
+    margin-left: 65px;
+}

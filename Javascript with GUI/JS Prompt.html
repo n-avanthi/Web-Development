@@ -1,0 +1,24 @@
+<!--Write a Program that accepts two numbers from the user. Add them up and display the result. 
+//Tip: Either use "number" input type. If you use "text", do number validation.-->
+<html lang="en">
+    <head>
+        <title>Sum 2 number</title>
+    </head>
+    <body>
+        <h1>Sum of two numbers is:</h1>
+        <script>
+            function add()
+            {
+                let num = Number(prompt("Enter a number",0));
+                console.log("Number 1 is ",num);
+                let num1 = Number(prompt("Enter a number",0));
+                console.log("Number 2 is ",num1);
+                var sum = num + num1;
+                console.log("Sum of ",num," and ",num1," is ",sum);
+                document.write("Sum of ",num," and ",num1," is ",sum);
+            }
+        </script>
+        <button onclick="add()">Addtion</button>
+    </body>
+
+</html>

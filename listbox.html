@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>List box</title>
+    </head>
+    <body>
+        <form id = "myForm">
+            <label for = "Beverage">Beverage</label>
+            <select id = "beverage" onchange = "displayMessage()">
+                <option value = "Tea">Tea</option>
+                <option value = "Coffee">Coffee</option>
+                <option value = "Juice">Juice</option>
+            </select>
+            <p id = "mytext"></p>
+        </form>
+        <script>
+            function displayMessage()
+            {
+                var drink = document.getElementById("myForm");
+                alert("Happy drinking " + drink.beverage.value);
+                document.getElementById("mytext").innerHTML = "Happy Drinking " + drink.beverage.value;
+            }
+        </script>
+    </body>
+</html>

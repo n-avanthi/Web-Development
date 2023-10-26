@@ -1,0 +1,7 @@
+<!--This is a comment-->
+<!-- Ctrl / can be used for comments -->
+SEO - search engine optimisitaion 
+for img, attributes are mandatory
+src is source
+always specified in start tag
+<img src = "", width = "px", height = ""></img>

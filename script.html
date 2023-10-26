@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>List in js</title>
+    </head>
+    <body onload="myFunc()">
+        <p id = "myText"></p>
+        <script>
+            function myFunc()
+            {
+                let myList = [2, 4, 6, 8];
+                let text = " ";
+                for(let i = 0; i < myList.length; i++)
+                {
+                    text += myList[i] + "<br>";
+                    console.log(text);
+                    document.getElementById("myText").innerHTML = text;
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+    <title>
+        Event handling
+    </title>
+    <body>
+        <label>State: </label>
+        <input type = "text" id = "text01">
+        <label>Capital: </label>
+        <input type = "text" id = "text02">
+        <button id = "button" onclick = "changeText()">Submit</button>
+        <!-- use onchange to dynamically display from textbox -->
+        <p id = "mydisplay" style = "color: brown;"></p> 
+        <!-- MUST HAVE ID AS IT IS USED FOR EVENT HANDLING -->
+        <script>
+            function changeText()
+            {
+                var myEntry01 = document.getElementById("text01").value;
+                var myEntry02 = document.getElementById("text02").value;
+                document.getElementById("mydisplay").innerHTML = "<b>I am from " + "<u>" + myEntry01 + "</u>" + "</b><i> and the capital is " + "<u>" + myEntry02 + "</u>"; 
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+th - SEO 
+div class? 
+SEO helps with?
+
+<nav> = navigation element & hyper link?
+nav = provides nav links within current documents or other documents usually used for menus, etc
+<iframe> ? = nested browsing content = LINK 
+<video> ? = DOWNLOADED VIDEO
